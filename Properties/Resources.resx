@@ -118,37 +118,262 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="goldenretriever" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\goldenretriever.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anime-dog-dog-running" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anime-dog-dog-running.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family. (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family. (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bruce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bruce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Address - Transparent Location Icon Yellow, HD Png Download , Transparent Png Image - PNGitem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Address - Transparent Location Icon Yellow, HD Png Download , Transparent Png Image - PNGitem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Address_-_Transparent_Location_Icon_Yellow__HD_Png_Download___Transparent_Png_Image_-_PNGitem-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Address_-_Transparent_Location_Icon_Yellow__HD_Png_Download___Transparent_Png_Image_-_PNGitem-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Browny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family. (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family. (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lorna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lorna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family." type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pet_tab_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_tab_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family. (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family. (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Apoptme_dog_2022" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apoptme_dog_2022.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Poppy-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppy-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Curious Window Cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Curious Window Cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Clifford-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clifford-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet-page-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet-page-bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading-loading-forever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading-loading-forever.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browny-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browny-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_born" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_born.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poppy-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppy-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back-button (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-button (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bruce-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bruce-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptionform1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptionform1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptform2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptform2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptionform2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptionform2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptform3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptform3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="passwordClosedeyes-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\passwordClosedeyes-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Kurt-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kurt-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start-application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start-application.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoption-form" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoption-form.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family. (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family. (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family. (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family. (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gigi-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gigi-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dog-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homepage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homepage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lorna-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lorna-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bonita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bonita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adopt-now-discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adopt-now-discount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_arrival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_arrival.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptform31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptform31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kurt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kurt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_events" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_events.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firstadopt_discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firstadopt_discount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leafs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leafs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="librarycontent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\librarycontent2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome to Fluffy Town!" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Welcome to Fluffy Town!.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bruce-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bruce-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gigi-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gigi-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUPPORT US FOOTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUPPORT US FOOTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updated-header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updated-header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discount-header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discount-header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="favoritoAlert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favoritoAlert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dog_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firstbuy_discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firstbuy_discount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kurt-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kurt-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clifford" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clifford.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptionform3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptionform3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apoptme_dog_2022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apoptme_dog_2022.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="favorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favorites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gigi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gigi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoption-form2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoption-form2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dognose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dognose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptform" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptform.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clifford-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clifford-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Address_-_Transparent_Location_Icon_Yellow__HD_Png_Download___Transparent_Png_Image_-_PNGitem-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Address_-_Transparent_Location_Icon_Yellow__HD_Png_Download___Transparent_Png_Image_-_PNGitem-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="all-categoris-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all-categoris-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adopt-process" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adopt-process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browny-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browny-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bonita-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bonita-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bonita-body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bonita-body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="librarycontent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\librarycontent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goldenretriever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goldenretriever.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptform21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptform21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Address - Transparent Location Icon Yellow, HD Png Download , Transparent Png Image - PNGitem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Address - Transparent Location Icon Yellow, HD Png Download , Transparent Png Image - PNGitem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="signup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\signup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Curious Window Cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Curious Window Cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="passwordOpeneyes-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\passwordOpeneyes-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adoptionform11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adoptionform11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lorna-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lorna-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A new tail is wagging for you! Browse our pets eager to find their forever family. (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A new tail is wagging for you! Browse our pets eager to find their forever family. (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homepage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homepage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3adoptform" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3adoptform.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

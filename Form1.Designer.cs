@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.homeButton = new Guna.UI2.WinForms.Guna2Button();
             this.petsButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -55,7 +54,7 @@
             this.homeButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.homeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.homeButton.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.homeButton.Location = new System.Drawing.Point(3, 2);
+            this.homeButton.Location = new System.Drawing.Point(12, 3);
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(177, 53);
             this.homeButton.TabIndex = 2;
@@ -70,8 +69,6 @@
             this.petsButton.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.petsButton.CheckedState.FillColor = System.Drawing.Color.Transparent;
             this.petsButton.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 3);
-            this.petsButton.CustomImages.CheckedImage = ((System.Drawing.Image)(resources.GetObject("resource.CheckedImage")));
-            this.petsButton.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
             this.petsButton.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.petsButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.petsButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -81,15 +78,16 @@
             this.petsButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.petsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.petsButton.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.petsButton.Location = new System.Drawing.Point(190, 3);
+            this.petsButton.Location = new System.Drawing.Point(214, 4);
             this.petsButton.Name = "petsButton";
             this.petsButton.Size = new System.Drawing.Size(177, 52);
             this.petsButton.TabIndex = 2;
+            this.petsButton.Text = "Pets";
             this.petsButton.Click += new System.EventHandler(this.petsButton_Click);
             // 
             // guna2Button3
             // 
-            this.guna2Button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(220)))), ((int)(((byte)(0)))));
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button3.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.guna2Button3.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -103,16 +101,16 @@
             this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Button3.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2Button3.Location = new System.Drawing.Point(381, 2);
+            this.guna2Button3.Location = new System.Drawing.Point(397, 4);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(177, 52);
             this.guna2Button3.TabIndex = 2;
-            this.guna2Button3.Text = "Search";
+            this.guna2Button3.Text = "Flufforia";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button4
             // 
-            this.guna2Button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(220)))), ((int)(((byte)(0)))));
+            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button4.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Button4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.guna2Button4.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -126,24 +124,24 @@
             this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Button4.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2Button4.Location = new System.Drawing.Point(573, 3);
+            this.guna2Button4.Location = new System.Drawing.Point(591, 4);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(177, 52);
             this.guna2Button4.TabIndex = 2;
-            this.guna2Button4.Text = "Account";
+            this.guna2Button4.Text = "Services";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.guna2Button4);
+            this.panel1.Controls.Add(this.petsButton);
             this.panel1.Controls.Add(this.homeButton);
             this.panel1.Controls.Add(this.guna2Button3);
-            this.panel1.Controls.Add(this.petsButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(752, 62);
+            this.panel1.Size = new System.Drawing.Size(771, 62);
             this.panel1.TabIndex = 3;
             // 
             // panelContainer
@@ -152,7 +150,7 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(0, 62);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(752, 812);
+            this.panelContainer.Size = new System.Drawing.Size(771, 732);
             this.panelContainer.TabIndex = 4;
             // 
             // Form1
@@ -160,7 +158,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(752, 874);
+            this.ClientSize = new System.Drawing.Size(771, 794);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

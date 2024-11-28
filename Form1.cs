@@ -58,7 +58,7 @@ namespace Fluffy_Town
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            UC_Search uc = new UC_Search();
+            UC_Library uc = new UC_Library();
             addUserControl(uc);
         }
 
@@ -66,6 +66,6 @@ namespace Fluffy_Town
         {
             UC_Account uc = new UC_Account();
             addUserControl(uc);
-        }      
+        }
     }
 }

@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FavoritoAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FavoritoAlert.Designer.cs">
+      <DependentUpon>FavoritoAlert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,17 +96,95 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\PetProfiles\Bonita_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Bonita_Profile.Designer.cs">
+      <DependentUpon>Bonita_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Browny_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Browny_Profile.Designer.cs">
+      <DependentUpon>Browny_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Bruce_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Bruce_Profile.Designer.cs">
+      <DependentUpon>Bruce_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Clifford_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Clifford_Profile.Designer.cs">
+      <DependentUpon>Clifford_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Gigi_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Gigi_Profile.Designer.cs">
+      <DependentUpon>Gigi_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Kurt_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Kurt_Profile.Designer.cs">
+      <DependentUpon>Kurt_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Lorna_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Lorna_Profile.Designer.cs">
+      <DependentUpon>Lorna_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Pet_Form_Page1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Pet_Form_Page1.Designer.cs">
+      <DependentUpon>Pet_Form_Page1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Pet_Form_Page2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Pet_Form_Page2.Designer.cs">
+      <DependentUpon>Pet_Form_Page2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Pet_Form_Page3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Pet_Form_Page3.Designer.cs">
+      <DependentUpon>Pet_Form_Page3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Poppy_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PetProfiles\Poppy_Profile.Designer.cs">
+      <DependentUpon>Poppy_Profile.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Sign_up.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\Sign_up.Designer.cs">
       <DependentUpon>Sign_up.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UC_Search.cs">
+    <Compile Include="UserControls\UC_Cat.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\UC_Search.Designer.cs">
-      <DependentUpon>UC_Search.cs</DependentUpon>
+    <Compile Include="UserControls\UC_Cat.Designer.cs">
+      <DependentUpon>UC_Cat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Dog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Dog.Designer.cs">
+      <DependentUpon>UC_Dog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Library.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Library.Designer.cs">
+      <DependentUpon>UC_Library.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UC_Account.cs">
       <SubType>UserControl</SubType>
@@ -105,6 +204,9 @@
     <Compile Include="UserControls\UC_Pets.Designer.cs">
       <DependentUpon>UC_Pets.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FavoritoAlert.resx">
+      <DependentUpon>FavoritoAlert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,11 +226,50 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControls\PetProfiles\Bonita_Profile.resx">
+      <DependentUpon>Bonita_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Browny_Profile.resx">
+      <DependentUpon>Browny_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Bruce_Profile.resx">
+      <DependentUpon>Bruce_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Clifford_Profile.resx">
+      <DependentUpon>Clifford_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Gigi_Profile.resx">
+      <DependentUpon>Gigi_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Kurt_Profile.resx">
+      <DependentUpon>Kurt_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Lorna_Profile.resx">
+      <DependentUpon>Lorna_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Pet_Form_Page1.resx">
+      <DependentUpon>Pet_Form_Page1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Pet_Form_Page2.resx">
+      <DependentUpon>Pet_Form_Page2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Pet_Form_Page3.resx">
+      <DependentUpon>Pet_Form_Page3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PetProfiles\Poppy_Profile.resx">
+      <DependentUpon>Poppy_Profile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Sign_up.resx">
       <DependentUpon>Sign_up.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_Search.resx">
-      <DependentUpon>UC_Search.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\UC_Cat.resx">
+      <DependentUpon>UC_Cat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Dog.resx">
+      <DependentUpon>UC_Dog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Library.resx">
+      <DependentUpon>UC_Library.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_Account.resx">
       <DependentUpon>UC_Account.cs</DependentUpon>
@@ -185,6 +326,243 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\passwordOpeneyes-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homepage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firstbuy_discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUPPORT US FOOTER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoption-form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoption-form2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome to Fluffy Town!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adopt-process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leafs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorites.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poppy-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bonita-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gigi-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lorna-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clifford-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browny-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kurt-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bruce-body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bonita-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browny-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bruce-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clifford-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gigi-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kurt-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lorna-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poppy-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updated-header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clifford.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kurt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bruce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bonita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gigi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lorna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discount-header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all-categoris-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet-page-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adopt-now-discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firstadopt_discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_tab_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homepage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading-loading-forever.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anime-dog-dog-running.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dognose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_arrival.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_events.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_born.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\librarycontent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\librarycontent2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favoritoAlert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptionform1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptionform2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptionform3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptform2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptform3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptform21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-button %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptionform11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adoptform31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3adoptform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
